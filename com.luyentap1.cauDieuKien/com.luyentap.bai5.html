@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let diemKiemtra = parseFloat(prompt('Nhập điểm kiểm tra'));
+  let diemGiuaky = parseFloat(prompt('Nhập điểm giữa kỳ'));
+  let diemCuoiky = parseFloat(prompt('Nhập điểm cuối kỳ'));
+  let total = (diemKiemtra + diemGiuaky*2 + diemCuoiky*3)/6;
+  if (total >= 8.5){
+      document.write( total.toFixed(2)+' :Học Sinh Giỏi');
+  }else if (total >= 6.5){
+      document.write( total.toFixed(2)+ ' :Học Sinh Khá');
+  }else if (total >= 5.0){
+      document.write( total.toFixed(2)+' : Học Sinh Trung Bình');
+  }else {
+      document.write( total.toFixed(2)+' :Học lại');
+  }
+</script>
+</body>
+</html>

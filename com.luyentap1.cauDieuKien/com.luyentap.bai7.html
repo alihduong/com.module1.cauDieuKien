@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let timeCall = parseFloat(prompt('Nhập số phút gọi trong tháng :'))
+    let money;
+    if (timeCall > 0){
+        money = timeCall * 2000;
+        // console.log(money);
+        document.write("Số phút gọi tháng này của bạn là : " + timeCall + " tiền tháng này bạn phải trả là: " + money);
+    }else{
+        document.write('Không gọi cho ai thì lấy đâu ra phút gọi =)))')
+    }
+</script>
+</body>
+</html>
