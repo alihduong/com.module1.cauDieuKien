@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let canhA = +prompt('Nhập cạnh A')
+  let canhB = +prompt('Nhập cạnh B')
+  let dienTichHCN
+  // let dienTichHCN = canhA*canhB;
+
+  // alert('Diện tích hình chữ nhật là = ' + dienTichHCN + 'cm²')
+  if(canhB === 0 || canhA === 0){
+      alert('Không phải hình chữ nhật')
+  }else {
+
+      dienTichHCN = canhA*canhB;
+      alert('Diện tích hình chữ nhật là = ' + dienTichHCN + 'cm²')
+  }
+</script>
+</body>
+</html>

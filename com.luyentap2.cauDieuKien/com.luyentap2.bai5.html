@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canhA = +prompt('Nhập cạnh A')
+    let canhB = +prompt('Nhập cạnh B')
+    let dienTichTamGiac
+    if(canhB === 0 || canhA === 0){
+        alert('Không phải hình Tam Giác')
+    }else {
+
+        dienTichTamGiac = 1/2*(canhA*canhB);
+        alert('Diện tích Tam giác vuông là = ' + dienTichTamGiac + 'cm²')
+    }
+</script>
+</body>
+</html>

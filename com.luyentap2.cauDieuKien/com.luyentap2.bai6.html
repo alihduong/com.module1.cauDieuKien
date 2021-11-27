@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numA = +prompt('Nhập a:')
+    let numB = +prompt('Nhập b:')
+    let x;
+    if (numA === 0 && numB === 0) {
+        alert('Phương trình vô số nghiệm.')
+    } else if (numA === 0 && numB !== 0) {
+        alert('Phương trình vô nghiệm')
+    } else if (numA !== 0 && numB !== 0) {
+        x = -numB / numA;
+        alert('Nghiệm của Phương trình ' + numA + 'x' + ' + ' + numB+' = 0 là: ' +x)
+    }
+</script>
+</body>
+</html>
